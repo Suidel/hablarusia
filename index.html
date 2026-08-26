@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>HABLA RUSIA | Clases de ruso y español online</title><meta content="academia de ruso, clases online de español, profesores nativos, clases personalizadas, cultura rusa y española, idiomas online" id="meta-keywords" name="keywords"/><meta content="Habla Rusia | Academia online de ruso y español" id="og-title" property="og:title"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+<link href="img/logoweb.png" rel="icon" type="image/png"/>
+<meta content="Clases online económicas y flexibles. Aprende ruso o español con enfoque cultural. Profesores nativos." id="og-description" property="og:description"/><meta content="https://hablarusia.com/img/logoacademia.png" property="og:image"/><meta content="https://hablarusia.com/" property="og:url"/><meta content="website" property="og:type"/><meta content="es_ES" property="og:locale"/><meta content="ru_RU" property="og:locale:alternate"/><meta content="summary_large_image" name="twitter:card"/><meta content="Habla Rusia | Clases online de ruso y español" id="twitter-title" name="twitter:title"/><meta content="Aprende ruso o español con clases online personalizadas, económicas y culturales." id="twitter-description" name="twitter:description"/><meta content="https://hablarusia.com/img/logoacademia.png" name="twitter:image"/>
+<meta charset="utf-8"/>
+<meta name="description" content="HABLA RUSIA ofrece clases de ruso online para hispanohablantes y clases de español online para rusohablantes.">
+<meta name="color-scheme" content="light">
+<meta content="Academia HABLA RUSIA" property="og:title"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<style>
+@media (prefers-color-scheme: dark) {
+  body {
+    color-scheme: only light;
+    background: var(--bg-gradient) !important;
+    color: #000 !important;
+  }
+
+  .highlight,
+  .info-box,
+  .testimonial,
+  .about-box {
+    background: white !important;
+    color: #333 !important;
+  }
+
+  header,
+  footer {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+  }
+}
+
+    :root {
+      --russia-blue: #cfd8f7;
+      --russia-white: #ffffff;
+      --russia-red: #f5cccc;
+      --spain-red: #f2b6b6;
+      --spain-yellow: #fff5cc;
+    }
+
+    body.russian {
+      --bg-gradient: linear-gradient(to bottom, var(--spain-yellow), var(--spain-red));
+      --section-bg-1: var(--spain-yellow);
+      --section-bg-2: var(--spain-red);
+      --hero-img: url('img/parqueguell.jpg');
+    }
+
+    body.spanish {
+      --bg-gradient: linear-gradient(to bottom, var(--russia-white), var(--russia-blue), var(--russia-red));
+      --section-bg-1: var(--russia-blue);
+      --section-bg-2: var(--russia-red);
+      --hero-img: url('img/sanbasilioplazaroja.jpg');
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: var(--bg-gradient);
+      transition: background 0.5s ease, color 0.5s ease;
+    }
+
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-size: 0.9rem;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.lang-toggle,
+.contact-top-btn {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+    .hero {
+      background: var(--hero-img) center/cover no-repeat;
+      color: white;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+      position: relative;
+      min-height: 50vh;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero img.flag {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      width: 48px;
+      height: auto;
+      z-index: 2;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+    }
+
+    .highlight-boxes, .info-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .highlight-boxes {
+      background-color: var(--section-bg-1);
+      color: #222;
+    }
+
+    .info-boxes {
+      background-color: var(--section-bg-2);
+      color: #222;
+    }
+
+    .highlight, .info-box {
+      background: white;
+      color: #333;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 280px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .highlight:hover, .info-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .highlight img, .info-box img {
+      display: block;
+      margin: 0 auto 1rem auto;
+      width: 124px;
+      height: 124px;
+      margin-bottom: 1rem;
+      object-fit: contain;
+    }
+
+    .about-us {
+      padding: 3rem 2rem;
+      background: var(--section-bg-1);
+      text-align: center;
+      color: #222;
+    }
+
+    .testimonials {
+      padding: 3rem 2rem;
+      background: var(--section-bg-2);
+      text-align: center;
+      color: #222;
+    }
+
+    .testimonial {
+      max-width: 400px;
+      margin: 1rem auto;
+      background: white;
+      color: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+    }
+  
+  .hero-text h2,
+  .hero-text p {
+    text-shadow:
+      0 0 2px black,
+      0 0 4px black,
+      0 0 8px black,
+      0 0 12px black;
+  }
+
+    .about-box {
+      background: white;
+      color: #333;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 2rem auto 0 auto;
+      max-width: 900px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+/* ESTILOS DEL BOTÓN CTA Y FORMULARIO */
+.cta-button {
+  font-family: 'Rubik', sans-serif;
+  background-color: #e63946; /* Rojo llamativo que pega con las banderas */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #d62828;
+  transform: translateY(-2px);
+}
+
+.hero-cta {
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.contact-section {
+  padding: 4rem 2rem;
+  background: var(--section-bg-1);
+  text-align: center;
+  color: #222;
+}
+
+.contact-box {
+  background: white;
+  border-radius: 10px;
+  padding: 2.5rem;
+  margin: 1rem auto 0 auto;
+  max-width: 500px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-box input,
+.contact-box textarea,
+.contact-box select {
+  font-family: 'Rubik', sans-serif;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+  outline: none;
+  border-color: #e63946;
+  background-color: #fff;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lang-toggle, .contact-top-btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0;
+    margin-right: 0.5rem;
+  }
+
+  .highlight-boxes, .info-boxes {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .highlight, .info-box {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .about-box {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .testimonial {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 3rem 1rem 1rem;
+  }
+
+  .hero img.flag {
+    width: 64px;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .hero img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .highlight, .info-box {
+    width: 320px;
+  }
+
+  .highlight-boxes, .info-boxes {
+    padding: 3rem 5rem;
+    gap: 3rem;
+  }
+
+  .about-box {
+    max-width: 1000px;
+    padding: 3rem;
+  }
+
+  .testimonial {
+    max-width: 500px;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+}
+</style>
+<link href="img/logoweb.png" rel="icon" type="image/png"/>
+  <link rel="canonical" href="https://hablarusia.com/">
+<link rel="canonical" href="https://hablarusia.com/">
+<link rel="alternate" hreflang="es" href="https://hablarusia.com/ruso-para-hispanohablantes/">
+<link rel="alternate" hreflang="ru" href="https://hablarusia.com/espanol-para-rusos/">
+<link rel="alternate" hreflang="x-default" href="https://hablarusia.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+</head>
+<body>
+<header role="banner">
+<h1><img alt="Logo Habla Rusia" src="img/logoacademia.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"/><span id="header-academia">Academia</span> HABLA RUSIA</h1>
+<div>
+<a class="contact-top-btn" href="ruso-para-hispanohablantes/index.html"><img alt="Correo" src="img/correo.png" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 6px;"/>Contactar</a>
+<a class="lang-toggle" href="espanol-para-rusos/index.html">Español для русскоязычных</a>
+</div>
+</header>
+<section class="hero" data-aos="fade-in">
+<img alt="Bandera rusa" class="flag" id="flag" src="img/banderarusa.png" style="width: 124px; height: auto;"/><img alt="Logo Habla Rusia" src="img/logoacademia.png" style="width: 160px; display: block; margin: 1rem auto 0; position: relative; z-index: 3; filter: drop-shadow(0 0 4px white);"/>
+<div class="hero-text">
+<h2 id="hero-title">Aprende ruso y español con nosotros</h2>
+<p id="hero-desc">Sumérgete en la cultura y el idioma con profesores nativos. Clases online para todos los niveles.</p>
+<!-- NUEVO BOTÓN CTA -->
+<a href="#contacto" class="cta-button hero-cta" id="hero-btn">Reserva tu clase</a>
+</div>
+</section>
+<section class="highlight-boxes" id="highlightSection">
+<div class="highlight" data-aos="zoom-in">
+<img alt="Precio" src="img/dinero.png"/>
+<h3 id="highlight1-title">Clases online flexibles</h3>
+<p id="highlight1-text">Aprende a tu ritmo con profesores experimentados.</p>
+</div>
+<div class="highlight" data-aos="zoom-in" data-aos-delay="100">
+<img alt="Profesores" src="img/profesora.png"/>
+<h3 id="highlight2-title">Profesores con experiencia</h3>
+<p id="highlight2-text">Aprende con nativos y especialistas certificados.</p>
+</div>
+<div class="highlight" data-aos="zoom-in" data-aos-delay="200">
+<img alt="Horario" src="img/calendario.png"/>
+<h3 id="highlight3-title">Horario flexible</h3>
+<p id="highlight3-text">Elige el horario que se adapte mejor a tu estilo de vida. Consulta el tuyo.</p>
+</div>
+</section>
+<section class="info-boxes">
+<div class="info-box" data-aos="zoom-in">
+<img alt="Online" src="img/online.png"/>
+<h3 id="info1-title">Онлайн занятия</h3>
+<p id="info1-text">Подключайтесь из любой точки мира и учитесь без ограничений.</p>
+</div>
+<div class="info-box" data-aos="zoom-in" data-aos-delay="100">
+<img alt="Cultura" src="img/cultura.png"/>
+<h3 id="info2-title">Очные занятия</h3>
+<p id="info2-text">Уроки в Мадриде для более личного опыта.</p>
+</div>
+<div class="info-box" data-aos="zoom-in" data-aos-delay="200">
+<img alt="Personalización" src="img/manos.png"/>
+<h3 id="info3-title">Индивидуальный подход</h3>
+<p id="info3-text">Мы адаптируем уроки под ваши нужды и цели.</p>
+</div>
+</section>
+<section class="about-us" data-aos="fade-up">
+<h2 id="about-title">Sobre nosotros</h2>
+<div id="about-text-container">
+<div id="about-es" style="display: none;">
+<div class="about-box">
+  <img src="img/equipo.png" alt="Nuestro equipo" style="width: 60%; max-width: 300px; border-radius: 10px; margin-bottom: 1.5rem;"/>
+<p>
+<strong>HABLA RUSIA</strong> es una academia online especializada en la enseñanza de ruso y español, creada para acercar no solo los idiomas, sino también las culturas que los rodean.<br/><br/>
+Nuestro objetivo es ofrecer una forma de aprender idiomas <strong>práctica, flexible y personalizada</strong>, adaptada al nivel, las necesidades y los objetivos de cada alumno.<br/><br/>
+Trabajamos con profesores con experiencia y apostamos por clases en las que el alumno pueda desarrollar sus habilidades de comunicación de forma natural, combinando el aprendizaje del idioma con aspectos culturales que ayudan a comprenderlo y vivirlo mejor.<br/><br/>
+Ya sea para viajar, trabajar, comunicarse con familiares, descubrir una nueva cultura o simplemente cumplir el deseo de aprender un idioma, adaptamos las clases a cada persona y a su ritmo.<br/><br/>
+<strong>APRENDE IDIOMAS, CONECTA CULTURAS</strong>
+</p>
+</div>
+</div>
+<div id="about-ru" style="display: none;">
+<div class="about-box">
+  <img src="img/equipo.png" alt="Наша команда" style="width: 60%; max-width: 300px; border-radius: 10px; margin-bottom: 1.5rem;"/>
+<p>
+<strong>HABLA RUSIA</strong> — онлайн-академия, специализирующаяся на преподавании русского и испанского языков. Мы стремимся помочь ученикам изучать не только язык, но и лучше понимать культуру, которая с ним связана.<br/><br/>
+Наша цель — сделать изучение языка <strong>практичным, гибким и индивидуальным</strong>, адаптированным к уровню, потребностям и целям каждого ученика.<br/><br/>
+Мы работаем с опытными преподавателями и уделяем особое внимание естественному развитию коммуникативных навыков, сочетая изучение языка с культурными аспектами, которые помогают лучше его понять и использовать.<br/><br/>
+Путешествия, работа, общение с семьёй, знакомство с новой культурой или просто желание выучить язык — независимо от цели, мы адаптируем занятия под каждого ученика и его темп обучения.<br/><br/>
+<strong>ИЗУЧАЙ ЯЗЫКИ, СОЕДИНЯЙ КУЛЬТУРЫ</strong>
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class="testimonials" data-aos="fade-up">
+<h2 id="testimonials-title">Testimonios</h2>
+<div class="testimonial">
+<p id="testimonial1">"Mi sueño siempre ha sido Rusia, tanto por cultura, historia, idioma... Continúo con las clases y noto una gran mejoría, aunque nunca he estado allí (por ahora), ya puedo comunicarme con nativos."</p>
+<strong id="testimonial1-name">- Jorge P.</strong>
+</div>
+<div class="testimonial">
+<p id="testimonial2">"Gracias a la academia he sido capaz de mejorar mi ruso y poder comunicarme con la familia de mi mujer, mis suegros se han quedado sorprendidos. El perfeccionar el idioma me ha abierto muchas puertas aquí."</p>
+<strong id="testimonial2-name">- Carlos G.</strong>
+</div>
+<div class="testimonial">
+<p id="testimonial3">"Necesitaba aprender ruso en un par de meses por motivos laborales. En tan poco tiempo he podido tener un nivel básico que me ha permitido vivir aquí sin mayores problemas."</p>
+<strong id="testimonial3-name">- Ana L.</strong>
+</div>
+</section>
+
+<!-- NUEVA SECCIÓN DE CONTACTO -->
+<section class="contact-section" data-aos="fade-up" id="contacto">
+  <h2 id="contact-title">¿Empezamos?</h2>
+  <div class="contact-box">
+    <p id="contact-subtitle">Escríbenos y te informaremos sin compromiso.</p>
+    
+    <!-- Nota: Cambia "TU_ID_DE_FORMSPREE" por tu código de formspree.io -->
+    <form action="https://formspree.io/f/mljrqpen" method="POST">
+      <input type="hidden" name="_subject" value="Nuevo contacto desde HABLA RUSIA">
+      <input type="text" id="form-name" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+      <input type="email" id="form-email" name="email" placeholder="Tu correo electrónico" autocomplete="email" required>
+
+      <select id="form-language" name="idioma" required>
+        <option value="" selected disabled>¿Qué idioma quieres aprender?</option>
+        <option value="Ruso">Ruso</option>
+        <option value="Español">Español</option>
+      </select>
+
+      <select id="form-level" name="nivel">
+        <option value="" selected disabled>¿Cuál es tu nivel?</option>
+        <option value="Principiante">Principiante</option>
+        <option value="Básico">Básico</option>
+        <option value="Intermedio">Intermedio</option>
+        <option value="Avanzado">Avanzado</option>
+      </select>
+
+      <textarea id="form-message" name="mensaje" rows="4" placeholder="Cuéntanos qué necesitas (opcional)"></textarea>
+      <button type="submit" class="cta-button" id="form-submit">Quiero empezar</button>
+    </form>
+  </div>
+</section>
+
+<footer role="contentinfo"><img alt="Correo" src="img/correo.png" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 6px;"/> hablarusia@gmail.com | © 2026 <img alt="Logo Habla Rusia" src="img/logoacademia.png" style="height: 28px; vertical-align: middle; margin-left: 12px;"/> <span id="footer-academia">Academia</span> HABLA RUSIA</footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000 });
+document.querySelector('.lang-toggle').addEventListener('click', toggleLanguage);
+
+  let currentLang;
+
+  
+window.addEventListener('DOMContentLoaded', () => {
+    // Detectar idioma desde parámetro ?lang=es o ?lang=ru
+    const urlParams = new URLSearchParams(window.location.search);
+    const paramLang = urlParams.get('lang');
+
+    const storedLang = localStorage.getItem('preferredLang');
+    if (paramLang === 'es' || paramLang === 'ru') {
+      currentLang = paramLang;
+    } else if (storedLang) {
+      currentLang = storedLang;
+    } else {
+      const userLang = navigator.language || navigator.userLanguage;
+      currentLang = userLang.toLowerCase().startsWith('ru') ? 'ru' : 'es';
+    }
+
+    localStorage.setItem('preferredLang', currentLang);
+    document.body.classList.add(currentLang === 'es' ? 'spanish' : 'russian');
+
+    updateLanguageUI();
+  });
+
+  function toggleLanguage() {
+    currentLang = currentLang === 'es' ? 'ru' : 'es';
+    localStorage.setItem('preferredLang', currentLang);
+    document.body.classList.toggle('russian', currentLang === 'ru');
+    document.body.classList.toggle('spanish', currentLang === 'es');
+    updateLanguageUI();
+  }
+
+  function updateLanguageUI() {
+    const isSpanish = currentLang === 'es';
+
+    // SEO / document language
+    document.documentElement.lang = currentLang;
+    document.title = isSpanish
+      ? 'Academia HABLA RUSIA | Clases online de ruso y español'
+      : 'Академия HABLA RUSIA | Онлайн-уроки русского и испанского';
+
+    const metaDescription = document.getElementById('meta-description');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        'content',
+        isSpanish
+          ? 'Academia online de ruso y español con profesores nativos, clases flexibles y enfoque cultural.'
+          : 'Онлайн-академия русского и испанского языков с носителями языка, гибким расписанием и культурным подходом.'
+      );
+    }
+
+    // Header
+    const headerAcademia = document.getElementById('header-academia');
+    if (headerAcademia) {
+      headerAcademia.textContent = isSpanish ? 'Academia' : 'Академия';
+    }
+
+    const contactHeaderBtn = document.getElementById('contactHeaderBtn');
+    if (contactHeaderBtn) {
+      contactHeaderBtn.innerHTML = isSpanish
+        ? '<img src="img/correo.png" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;" alt="Correo">Contactar'
+        : '<img src="img/correo.png" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;" alt="Электронная почта">Связаться';
+    }
+
+    const langToggle = document.querySelector('.lang-toggle');
+    if (langToggle) {
+      langToggle.childNodes[0].nodeValue = isSpanish ? 'Русский' : 'Español';
+    }
+
+    // Hero
+    document.getElementById('hero-title').textContent = isSpanish
+      ? 'Aprende ruso y español con nosotros'
+      : 'Изучайте испанский и русский языки с нами';
+
+    document.getElementById('hero-desc').textContent = isSpanish
+      ? 'Sumérgete en la cultura y el idioma con profesores nativos. Clases online para todos los niveles.'
+      : 'Погрузитесь в культуру и язык с носителями языка. Онлайн-занятия для всех уровней.';
+
+    // Language-dependent images
+    const flag = document.getElementById('flag');
+    if (flag) {
+      flag.src = isSpanish ? 'img/banderarusa.png' : 'img/banderaespañola.png';
+      flag.alt = isSpanish ? 'Bandera rusa' : 'Bandera española';
+    }
+
+    const langFlag = document.getElementById('lang-flag');
+    if (langFlag) {
+      langFlag.src = isSpanish ? 'img/banderarusapeque.png' : 'img/banderaespañolapeque.png';
+      langFlag.alt = isSpanish ? 'Bandera rusa' : 'Bandera española';
+    }
+
+    // Highlights
+    const highlights = [
+      {
+        title: ['Clases económicas', 'Доступные занятия'],
+        text: ['No te quedes con las ganas de cumplir tu sueño.', 'Не отказывайтесь от своей мечты.']
+      },
+      {
+        title: ['Profesores con experiencia', 'Опытные преподаватели'],
+        text: ['Aprende con nativos y especialistas certificados.', 'Учитесь у носителей языка и сертифицированных специалистов.']
+      },
+      {
+        title: ['Horario flexible', 'Гибкое расписание'],
+        text: ['Elige el horario que se adapte mejor a tu estilo de vida. Consulta el tuyo.', 'Выберите расписание, которое подходит вашему образу жизни.']
+      }
+    ];
+
+    highlights.forEach((item, i) => {
+      document.getElementById(`highlight${i + 1}-title`).textContent = item.title[isSpanish ? 0 : 1];
+      document.getElementById(`highlight${i + 1}-text`).textContent = item.text[isSpanish ? 0 : 1];
+    });
+
+    // Information boxes
+    const infos = [
+      {
+        title: ['Clases online', 'Онлайн-занятия'],
+        text: ['Conéctate desde cualquier lugar y aprende sin límites.', 'Подключайтесь из любой точки мира и учитесь без ограничений.']
+      },
+      {
+        title: ['Conoce la cultura', 'Познайте культуру'],
+        text: ['Porque hablar un idioma es también sentirlo y vivirlo.', 'Ведь говорить на языке — значит также чувствовать и проживать его.']
+      },
+      {
+        title: ['Enfoque personalizado', 'Индивидуальный подход'],
+        text: ['Adaptamos las clases a tus necesidades y objetivos.', 'Мы адаптируем занятия под ваши потребности и цели.']
+      }
+    ];
+
+    infos.forEach((item, i) => {
+      document.getElementById(`info${i + 1}-title`).textContent = item.title[isSpanish ? 0 : 1];
+      document.getElementById(`info${i + 1}-text`).textContent = item.text[isSpanish ? 0 : 1];
+    });
+
+    // About section
+    document.getElementById('about-title').textContent = isSpanish
+      ? 'Sobre HABLA RUSIA'
+      : 'О HABLA RUSIA';
+
+    document.getElementById('about-es').style.display = isSpanish ? 'block' : 'none';
+    document.getElementById('about-ru').style.display = isSpanish ? 'none' : 'block';
+
+    // Testimonials
+    document.getElementById('testimonials-title').textContent = isSpanish ? 'Testimonios' : 'Отзывы';
+
+    const testimonialTexts = [
+      [
+        '"Mi sueño siempre ha sido Rusia, tanto por cultura, historia, idioma... Continúo con las clases y noto una gran mejoría, aunque nunca he estado allí (por ahora), ya puedo comunicarme con nativos."',
+        '"Огромное спасибо академии. Этим летом я ездила в отпуск в Испанию, и мне очень понравилось — я смогла разговаривать с людьми, и они прекрасно меня понимали."'
+      ],
+      [
+        '"Gracias a la academia he sido capaz de mejorar mi ruso y poder comunicarme con la familia de mi mujer, mis suegros se han quedado sorprendidos. El perfeccionar el idioma me ha abierto muchas puertas aquí."',
+        '"Я всегда была влюблена в Мексику, сейчас готовлюсь к поездке туда. Хотя мой уровень пока базовый, я замечаю быстрый прогресс. Огромное спасибо Кате за всё и за то, что подстраивается под моё расписание."'
+      ],
+      [
+        '"Necesitaba aprender ruso en un par de meses por motivos laborales. En tan poco tiempo he podido tener un nivel básico que me ha permitido vivir aquí sin mayores problemas."',
+        '"Мой муж — перуанец, и раньше мы общались на английском. Шесть месяцев назад я решила сделать шаг и начать учить испанский, и я очень этому рада. Моему мужу очень нравится, что я учу его язык — это укрепило наши отношения."'
+      ]
+    ];
+
+    const testimonialNames = [
+      ['- Jorge P.', '- Елена М.'],
+      ['- Carlos G.', '- Игорь С.'],
+      ['- Ana L.', '- Мария К.']
+    ];
+
+    testimonialTexts.forEach((texts, i) => {
+      document.getElementById(`testimonial${i + 1}`).textContent = texts[isSpanish ? 0 : 1];
+      document.getElementById(`testimonial${i + 1}-name`).textContent = testimonialNames[i][isSpanish ? 0 : 1];
+    });
+
+    // Llamada a la Acción (CTA) y Formulario
+    const heroBtn = document.getElementById('hero-btn');
+    if(heroBtn) heroBtn.textContent = isSpanish ? 'Empieza a aprender' : 'Начать учиться';
+
+    const contactTitle = document.getElementById('contact-title');
+    if(contactTitle) contactTitle.textContent = isSpanish ? '¿Empezamos?' : 'Начнем?';
+
+    const contactSubtitle = document.getElementById('contact-subtitle');
+    if(contactSubtitle) contactSubtitle.textContent = isSpanish ? 'Déjanos tus datos y te contamos horarios, niveles y cómo empezar.' : 'Оставьте свои данные, и мы расскажем о расписании, уровнях и начале обучения.';
+
+    const formName = document.getElementById('form-name');
+    if(formName) formName.placeholder = isSpanish ? 'Tu nombre' : 'Ваше имя';
+
+    const formEmail = document.getElementById('form-email');
+    if(formEmail) formEmail.placeholder = isSpanish ? 'Tu correo electrónico' : 'Ваш email';
+
+    const formMessage = document.getElementById('form-message');
+    if(formMessage) formMessage.placeholder = isSpanish ? 'Cuéntanos qué necesitas (opcional)' : 'Расскажите, что вам нужно (необязательно)';
+
+    const formLanguage = document.getElementById('form-language');
+    if(formLanguage) {
+      formLanguage.options[0].text = isSpanish ? '¿Qué idioma quieres aprender?' : 'Какой язык вы хотите изучать?';
+      formLanguage.options[1].text = isSpanish ? 'Ruso' : 'Русский';
+      formLanguage.options[2].text = isSpanish ? 'Español' : 'Испанский';
+    }
+
+    const formLevel = document.getElementById('form-level');
+    if(formLevel) {
+      formLevel.options[0].text = isSpanish ? '¿Cuál es tu nivel?' : 'Какой у вас уровень?';
+      formLevel.options[1].text = isSpanish ? 'Principiante' : 'Начальный';
+      formLevel.options[2].text = isSpanish ? 'Básico' : 'Базовый';
+      formLevel.options[3].text = isSpanish ? 'Intermedio' : 'Средний';
+      formLevel.options[4].text = isSpanish ? 'Avanzado' : 'Продвинутый';
+    }
+
+    const formSubmit = document.getElementById('form-submit');
+    if(formSubmit) formSubmit.textContent = isSpanish ? 'Quiero empezar' : 'Хочу начать';
+
+    // Footer
+    const footerAcademia = document.getElementById('footer-academia');
+    if (footerAcademia) {
+      footerAcademia.textContent = isSpanish ? 'Academia' : 'Академия';
+    }
+  }
+</script>
+</body>
+</html>

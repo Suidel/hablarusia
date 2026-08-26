@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>Clases de ruso online para hispanohablantes | HABLA RUSIA</title>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+<link href="../img/logoweb.png" rel="icon" type="image/png"/>
+<meta content="https://hablarusia.com/img/logoacademia.png" name="twitter:image"/>
+<meta charset="utf-8"/>
+<meta name="description" content="Clases de ruso online para españoles e hispanoamericanos. Aprende ruso desde cero o mejora tu nivel con clases personalizadas y flexibles.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://hablarusia.com/ruso-para-hispanohablantes/">
+<link rel="alternate" hreflang="es" href="https://hablarusia.com/ruso-para-hispanohablantes/">
+<link rel="alternate" hreflang="ru" href="https://hablarusia.com/espanol-para-rusos/">
+<link rel="alternate" hreflang="x-default" href="https://hablarusia.com/">
+<meta property="og:title" content="Clases de ruso online para hispanohablantes | HABLA RUSIA">
+<meta property="og:description" content="Clases de ruso online para españoles e hispanoamericanos. Aprende ruso desde cero o mejora tu nivel con clases personalizadas y flexibles.">
+<meta property="og:url" content="https://hablarusia.com/ruso-para-hispanohablantes/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:site_name" content="HABLA RUSIA">
+<meta property="og:image" content="https://hablarusia.com/img/logoacademia.png">
+<meta property="og:image:alt" content="Clases de ruso online para hispanohablantes">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Clases de ruso online para hispanohablantes | HABLA RUSIA">
+<meta name="twitter:description" content="Clases de ruso online para españoles e hispanoamericanos. Aprende ruso desde cero o mejora tu nivel con clases personalizadas y flexibles.">
+<meta name="twitter:image" content="https://hablarusia.com/img/logoacademia.png">
+<meta name="twitter:image:alt" content="Clases de ruso online para hispanohablantes">
+
+<meta name="color-scheme" content="light">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<style>
+@media (prefers-color-scheme: dark) {
+  body {
+    color-scheme: only light;
+    background: var(--bg-gradient) !important;
+    color: #000 !important;
+  }
+
+  .highlight,
+  .info-box,
+  .testimonial,
+  .about-box {
+    background: white !important;
+    color: #333 !important;
+  }
+
+  header,
+  footer {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+  }
+}
+
+    :root {
+      --russia-blue: #cfd8f7;
+      --russia-white: #ffffff;
+      --russia-red: #f5cccc;
+      --spain-red: #f2b6b6;
+      --spain-yellow: #fff5cc;
+    }
+
+    body.russian {
+      --bg-gradient: linear-gradient(to bottom, var(--spain-yellow), var(--spain-red));
+      --section-bg-1: var(--spain-yellow);
+      --section-bg-2: var(--spain-red);
+      --hero-img: url('../img/parqueguell.jpg');
+    }
+
+    body.spanish {
+      --bg-gradient: linear-gradient(to bottom, var(--russia-white), var(--russia-blue), var(--russia-red));
+      --section-bg-1: var(--russia-blue);
+      --section-bg-2: var(--russia-red);
+      --hero-img: url('../img/sanbasilioplazaroja.jpg');
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: var(--bg-gradient);
+      transition: background 0.5s ease, color 0.5s ease;
+    }
+
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-size: 0.9rem;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.lang-toggle,
+.contact-top-btn {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+    .hero {
+      background: var(--hero-img) center/cover no-repeat;
+      color: white;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+      position: relative;
+      min-height: 50vh;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero img.flag {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      width: 48px;
+      height: auto;
+      z-index: 2;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+    }
+
+    .highlight-boxes, .info-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .highlight-boxes {
+      background-color: var(--section-bg-1);
+      color: #222;
+    }
+
+    .info-boxes {
+      background-color: var(--section-bg-2);
+      color: #222;
+    }
+
+    .highlight, .info-box {
+      background: white;
+      color: #333;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 280px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .highlight:hover, .info-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .highlight img, .info-box img {
+      display: block;
+      margin: 0 auto 1rem auto;
+      width: 124px;
+      height: 124px;
+      margin-bottom: 1rem;
+      object-fit: contain;
+    }
+
+    .about-us {
+      padding: 3rem 2rem;
+      background: var(--section-bg-1);
+      text-align: center;
+      color: #222;
+    }
+
+    .testimonials {
+      padding: 3rem 2rem;
+      background: var(--section-bg-2);
+      text-align: center;
+      color: #222;
+    }
+
+    .testimonial {
+      max-width: 400px;
+      margin: 1rem auto;
+      background: white;
+      color: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+    }
+  
+  .hero-text h2,
+  .hero-text p {
+    text-shadow:
+      0 0 2px black,
+      0 0 4px black,
+      0 0 8px black,
+      0 0 12px black;
+  }
+
+    .about-box {
+      background: white;
+      color: #333;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 2rem auto 0 auto;
+      max-width: 900px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+/* ESTILOS DEL BOTÓN CTA Y FORMULARIO */
+.cta-button {
+  font-family: 'Rubik', sans-serif;
+  background-color: #e63946; /* Rojo llamativo que pega con las banderas */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #d62828;
+  transform: translateY(-2px);
+}
+
+.hero-cta {
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.contact-section {
+  padding: 4rem 2rem;
+  background: var(--section-bg-1);
+  text-align: center;
+  color: #222;
+}
+
+.contact-box {
+  background: white;
+  border-radius: 10px;
+  padding: 2.5rem;
+  margin: 1rem auto 0 auto;
+  max-width: 500px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-box input,
+.contact-box textarea,
+.contact-box select {
+  font-family: 'Rubik', sans-serif;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+  outline: none;
+  border-color: #e63946;
+  background-color: #fff;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lang-toggle, .contact-top-btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0;
+    margin-right: 0.5rem;
+  }
+
+  .highlight-boxes, .info-boxes {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .highlight, .info-box {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .about-box {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .testimonial {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 3rem 1rem 1rem;
+  }
+
+  .hero img.flag {
+    width: 64px;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .hero img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .highlight, .info-box {
+    width: 320px;
+  }
+
+  .highlight-boxes, .info-boxes {
+    padding: 3rem 5rem;
+    gap: 3rem;
+  }
+
+  .about-box {
+    max-width: 1000px;
+    padding: 3rem;
+  }
+
+  .testimonial {
+    max-width: 500px;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+}
+</style>
+<link href="../img/logoweb.png" rel="icon" type="image/png"/>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOrganization", "name": "HABLA RUSIA", "url": "https://hablarusia.com/", "email": "hablarusia@gmail.com", "logo": "https://hablarusia.com/img/logoacademia.png", "description": "Clases de ruso online para españoles e hispanoamericanos. Aprende ruso desde cero o mejora tu nivel con clases personalizadas y flexibles."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Clases de ruso online para hispanohablantes", "url": "https://hablarusia.com/ruso-para-hispanohablantes/", "inLanguage": "es", "isPartOf": {"@type": "WebSite", "name": "HABLA RUSIA", "url": "https://hablarusia.com/"}}</script>
+<link rel="preload" as="image" href="../img/parqueguell.jpg">
+</head>
+<body class="spanish">
+<header role="banner">
+<div class="site-brand"><img alt="Logo Habla Rusia" src="../img/logoacademia.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"/><span id="header-academia">Academia</span> HABLA RUSIA</div>
+<div>
+<a class="contact-top-btn" href="#contacto" id="contactHeaderBtn"><img alt="Correo" src="../img/correo.png" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 6px;"/>Contactar</a>
+<a class="lang-toggle" href="../espanol-para-rusos/index.html" id="lang-link"><img src="../img/banderarusa.png" alt="Русский" style="width:22px;height:auto;vertical-align:middle;margin-right:7px;">Русский</a>
+</div>
+</header>
+<section class="hero" data-aos="fade-in">
+<img alt="Bandera rusa" class="flag" id="flag" src="../img/banderarusa.png" style="width: 124px; height: auto;"/><img alt="Logo Habla Rusia" src="../img/logoacademia.png" style="width: 160px; display: block; margin: 1rem auto 0; position: relative; z-index: 3; filter: drop-shadow(0 0 4px white);"/>
+<div class="hero-text">
+<h1 id="hero-title">Aprende ruso online con profesores experimentados</h1>
+<p id="hero-desc">Clases de ruso para españoles e hispanoamericanos. Aprende a comunicarte, mejora tu nivel y conoce la cultura rusa desde cualquier lugar.</p>
+<!-- NUEVO BOTÓN CTA -->
+<a href="#contacto" class="cta-button hero-cta" id="hero-btn">Quiero aprender ruso</a>
+</div>
+</section>
+<section class="highlight-boxes" id="highlightSection">
+<div class="highlight" data-aos="zoom-in">
+<img alt="Clases de ruso online personalizadas" src="../img/dinero.png"/>
+<h3 id="highlight1-title">Clases personalizadas</h3>
+<p id="highlight1-text">Adaptamos las clases a tu nivel, objetivos y ritmo de aprendizaje.</p>
+</div>
+<div class="highlight" data-aos="zoom-in" data-aos-delay="100">
+<img alt="Profesores de ruso con experiencia" src="../img/profesora.png"/>
+<h3 id="highlight2-title">Profesores con experiencia</h3>
+<p id="highlight2-text">Aprende con profesores preparados para desarrollar una comunicación natural.</p>
+</div>
+<div class="highlight" data-aos="zoom-in" data-aos-delay="200">
+<img alt="Horario flexible para clases de ruso online" src="../img/calendario.png"/>
+<h3 id="highlight3-title">Horario flexible</h3>
+<p id="highlight3-text">Organiza tus clases online de acuerdo con tu disponibilidad.</p>
+</div>
+</section>
+<section class="info-boxes">
+<div class="info-box" data-aos="zoom-in">
+<img alt="Clases de ruso online" src="../img/online.png"/>
+<h3 id="info1-title">Clases online</h3>
+<p id="info1-text">Conéctate desde cualquier lugar y aprende sin límites.</p>
+</div>
+<div class="info-box" data-aos="zoom-in" data-aos-delay="100">
+<img alt="Cultura rusa" src="../img/cultura.png"/>
+<h3 id="info2-title">Conoce la cultura</h3>
+<p id="info2-text">Aprender un idioma también es descubrir la cultura que lo rodea.</p>
+</div>
+<div class="info-box" data-aos="zoom-in" data-aos-delay="200">
+<img alt="Aprendizaje de ruso personalizado" src="../img/manos.png"/>
+<h3 id="info3-title">Enfoque individual</h3>
+<p id="info3-text">Adaptamos las clases a tus necesidades y objetivos.</p>
+</div>
+</section>
+<section class="about-us" data-aos="fade-up">
+<h2 id="about-title">Una forma práctica de aprender ruso</h2><div id="about-text-container"><div class="about-box">
+<p><strong>HABLA RUSIA</strong> — Diseñamos las clases para personas que hablan español y quieren aprender ruso desde cero o mejorar un nivel que ya tienen. Trabajamos la conversación, la comprensión, la gramática y el vocabulario según tus objetivos.</p><p>Tanto si quieres viajar, trabajar, comunicarte con personas rusohablantes o acercarte a la cultura rusa, adaptamos las clases a tus necesidades y a tu ritmo.</p>
+</div></div></section>
+<section class="about-us" data-aos="fade-up" id="clases"><h2>Clases de ruso online para hispanohablantes</h2><div class="about-box"><p>Diseñamos las clases para personas que hablan español y quieren aprender ruso desde cero o mejorar un nivel que ya tienen. Trabajamos la conversación, la comprensión, la gramática y el vocabulario según tus objetivos.</p><h3>Cómo funcionan las clases de ruso</h3><div class="highlight-boxes" style="padding:1rem 0;background:transparent;"><div class="highlight"><h3>1. Cuéntanos tu objetivo</h3><p>Dinos qué quieres conseguir con el ruso y cuál es tu nivel actual.</p></div><div class="highlight"><h3>2. Encontramos la clase adecuada</h3><p>Te orientamos sobre el tipo de clase y nivel que mejor encajan contigo.</p></div><div class="highlight"><h3>3. Empieza a aprender</h3><p>Comienza tus clases online y avanza a tu propio ritmo.</p></div></div></div></section>
+<section class="testimonials" data-aos="fade-up">
+<h2 id="testimonials-title">Testimonios</h2>
+<div class="testimonial">
+<p id="testimonial1">"Mi sueño siempre ha sido Rusia, tanto por cultura, historia, idioma... Continúo con las clases y noto una gran mejoría, aunque nunca he estado allí (por ahora), ya puedo comunicarme con nativos."</p>
+<strong id="testimonial1-name">- Jorge P.</strong>
+</div>
+<div class="testimonial">
+<p id="testimonial2">"Gracias a la academia he sido capaz de mejorar mi ruso y poder comunicarme con la familia de mi mujer, mis suegros se han quedado sorprendidos. El perfeccionar el idioma me ha abierto muchas puertas aquí."</p>
+<strong id="testimonial2-name">- Carlos G.</strong>
+</div>
+<div class="testimonial">
+<p id="testimonial3">"Necesitaba aprender ruso en un par de meses por motivos laborales. En tan poco tiempo he podido tener un nivel básico que me ha permitido vivir aquí sin mayores problemas."</p>
+<strong id="testimonial3-name">- Ana L.</strong>
+</div>
+</section>
+
+<!-- NUEVA SECCIÓN DE CONTACTO -->
+<section class="about-us" data-aos="fade-up" id="preguntas"><h2>Preguntas frecuentes sobre las clases de ruso</h2><div class="about-box" style="text-align:left;"><h3>¿Las clases de ruso son online?</h3><p>Sí. Puedes aprender ruso online desde cualquier lugar.</p><h3>¿Puedo empezar ruso desde cero?</h3><p>Sí. Las clases están adaptadas a distintos niveles, incluido el nivel principiante.</p><h3>¿Las clases son individuales?</h3><p>Ofrecemos un enfoque personalizado para adaptar las clases a tus necesidades y objetivos.</p></div></section>
+<section class="contact-section" data-aos="fade-up" id="contacto">
+  <h2 id="contact-title">¿Quieres empezar a aprender ruso?</h2>
+  <div class="contact-box">
+    <p id="contact-subtitle">Déjanos tus datos y te informaremos sobre las clases, niveles y horarios.</p>
+    
+    <!-- Nota: Cambia "TU_ID_DE_FORMSPREE" por tu código de formspree.io -->
+    <form action="https://formspree.io/f/mljrqpen" method="POST">
+      <input type="hidden" name="_subject" value="Nuevo contacto desde HABLA RUSIA">
+      <input type="text" id="form-name" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+      <input type="email" id="form-email" name="email" placeholder="Tu correo electrónico" autocomplete="email" required>
+
+      <input type="hidden" id="form-language" name="idioma" value="Ruso">
+
+      <select id="form-level" name="nivel"><option value="" selected disabled>¿Cuál es tu nivel?</option><option>Principiante</option><option>Básico</option><option>Intermedio</option><option>Avanzado</option></select>
+
+      <textarea id="form-message" name="mensaje" rows="4" placeholder="Cuéntanos qué necesitas (opcional)"></textarea>
+      <button type="submit" class="cta-button" id="form-submit">Quiero aprender ruso</button>
+    </form>
+  </div>
+</section>
+
+<footer role="contentinfo"><img alt="Correo" src="../img/correo.png" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 6px;"/> hablarusia@gmail.com | © 2026 <img alt="Logo Habla Rusia" src="../img/logoacademia.png" style="height: 28px; vertical-align: middle; margin-left: 12px;"/> <span id="footer-academia">Academia</span> HABLA RUSIA</footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ duration: 1000 });</script>
+</body>
+</html>

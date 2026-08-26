@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><title>Уроки испанского онлайн для русскоязычных | HABLA RUSIA</title>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+<link href="../img/logoweb.png" rel="icon" type="image/png"/>
+<meta content="https://hablarusia.com/img/logoacademia.png" name="twitter:image"/>
+<meta charset="utf-8"/>
+<meta name="description" content="Уроки испанского онлайн для русскоязычных. Учите испанский с нуля или улучшайте уровень на индивидуальных занятиях с гибким расписанием.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://hablarusia.com/espanol-para-rusos/">
+<link rel="alternate" hreflang="es" href="https://hablarusia.com/ruso-para-hispanohablantes/">
+<link rel="alternate" hreflang="ru" href="https://hablarusia.com/espanol-para-rusos/">
+<link rel="alternate" hreflang="x-default" href="https://hablarusia.com/">
+<meta property="og:title" content="Уроки испанского онлайн для русскоязычных | HABLA RUSIA">
+<meta property="og:description" content="Уроки испанского онлайн для русскоязычных. Учите испанский с нуля или улучшайте уровень на индивидуальных занятиях с гибким расписанием.">
+<meta property="og:url" content="https://hablarusia.com/espanol-para-rusos/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:site_name" content="HABLA RUSIA">
+<meta property="og:image" content="https://hablarusia.com/img/logoacademia.png">
+<meta property="og:image:alt" content="Уроки испанского онлайн для русскоязычных">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Уроки испанского онлайн для русскоязычных | HABLA RUSIA">
+<meta name="twitter:description" content="Уроки испанского онлайн для русскоязычных. Учите испанский с нуля или улучшайте уровень на индивидуальных занятиях с гибким расписанием.">
+<meta name="twitter:image" content="https://hablarusia.com/img/logoacademia.png">
+<meta name="twitter:image:alt" content="Уроки испанского онлайн для русскоязычных">
+
+<meta name="color-scheme" content="light">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<style>
+@media (prefers-color-scheme: dark) {
+  body {
+    color-scheme: only light;
+    background: var(--bg-gradient) !important;
+    color: #000 !important;
+  }
+
+  .highlight,
+  .info-box,
+  .testimonial,
+  .about-box {
+    background: white !important;
+    color: #333 !important;
+  }
+
+  header,
+  footer {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+  }
+}
+
+    :root {
+      --russia-blue: #cfd8f7;
+      --russia-white: #ffffff;
+      --russia-red: #f5cccc;
+      --spain-red: #f2b6b6;
+      --spain-yellow: #fff5cc;
+    }
+
+    body.russian {
+      --bg-gradient: linear-gradient(to bottom, var(--spain-yellow), var(--spain-red));
+      --section-bg-1: var(--spain-yellow);
+      --section-bg-2: var(--spain-red);
+      --hero-img: url('../img/parqueguell.jpg');
+    }
+
+    body.spanish {
+      --bg-gradient: linear-gradient(to bottom, var(--russia-white), var(--russia-blue), var(--russia-red));
+      --section-bg-1: var(--russia-blue);
+      --section-bg-2: var(--russia-red);
+      --hero-img: url('../img/sanbasilioplazaroja.jpg');
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: var(--bg-gradient);
+      transition: background 0.5s ease, color 0.5s ease;
+    }
+
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-size: 0.9rem;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.lang-toggle,
+.contact-top-btn {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+    .hero {
+      background: var(--hero-img) center/cover no-repeat;
+      color: white;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+      position: relative;
+      min-height: 50vh;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero img.flag {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      width: 48px;
+      height: auto;
+      z-index: 2;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+    }
+
+    .highlight-boxes, .info-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .highlight-boxes {
+      background-color: var(--section-bg-1);
+      color: #222;
+    }
+
+    .info-boxes {
+      background-color: var(--section-bg-2);
+      color: #222;
+    }
+
+    .highlight, .info-box {
+      background: white;
+      color: #333;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 280px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .highlight:hover, .info-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .highlight img, .info-box img {
+      display: block;
+      margin: 0 auto 1rem auto;
+      width: 124px;
+      height: 124px;
+      margin-bottom: 1rem;
+      object-fit: contain;
+    }
+
+    .about-us {
+      padding: 3rem 2rem;
+      background: var(--section-bg-1);
+      text-align: center;
+      color: #222;
+    }
+
+    .testimonials {
+      padding: 3rem 2rem;
+      background: var(--section-bg-2);
+      text-align: center;
+      color: #222;
+    }
+
+    .testimonial {
+      max-width: 400px;
+      margin: 1rem auto;
+      background: white;
+      color: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+    }
+  
+  .hero-text h2,
+  .hero-text p {
+    text-shadow:
+      0 0 2px black,
+      0 0 4px black,
+      0 0 8px black,
+      0 0 12px black;
+  }
+
+    .about-box {
+      background: white;
+      color: #333;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 2rem auto 0 auto;
+      max-width: 900px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+/* ESTILOS DEL BOTÓN CTA Y FORMULARIO */
+.cta-button {
+  font-family: 'Rubik', sans-serif;
+  background-color: #e63946; /* Rojo llamativo que pega con las banderas */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #d62828;
+  transform: translateY(-2px);
+}
+
+.hero-cta {
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.contact-section {
+  padding: 4rem 2rem;
+  background: var(--section-bg-1);
+  text-align: center;
+  color: #222;
+}
+
+.contact-box {
+  background: white;
+  border-radius: 10px;
+  padding: 2.5rem;
+  margin: 1rem auto 0 auto;
+  max-width: 500px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-box input,
+.contact-box textarea,
+.contact-box select {
+  font-family: 'Rubik', sans-serif;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+  outline: none;
+  border-color: #e63946;
+  background-color: #fff;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lang-toggle, .contact-top-btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0;
+    margin-right: 0.5rem;
+  }
+
+  .highlight-boxes, .info-boxes {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .highlight, .info-box {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .about-box {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .testimonial {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 3rem 1rem 1rem;
+  }
+
+  .hero img.flag {
+    width: 64px;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .hero img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .highlight, .info-box {
+    width: 320px;
+  }
+
+  .highlight-boxes, .info-boxes {
+    padding: 3rem 5rem;
+    gap: 3rem;
+  }
+
+  .about-box {
+    max-width: 1000px;
+    padding: 3rem;
+  }
+
+  .testimonial {
+    max-width: 500px;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+}
+</style>
+<link href="../img/logoweb.png" rel="icon" type="image/png"/>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOrganization", "name": "HABLA RUSIA", "url": "https://hablarusia.com/", "email": "hablarusia@gmail.com", "logo": "https://hablarusia.com/img/logoacademia.png", "description": "Уроки испанского онлайн для русскоязычных. Учите испанский с нуля или улучшайте уровень на индивидуальных занятиях с гибким расписанием."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Уроки испанского онлайн для русскоязычных", "url": "https://hablarusia.com/espanol-para-rusos/", "inLanguage": "ru", "isPartOf": {"@type": "WebSite", "name": "HABLA RUSIA", "url": "https://hablarusia.com/"}}</script>
+<link rel="preload" as="image" href="../img/sanbasilioplazaroja.jpg">
+</head>
+<body class="russian">
+<header role="banner">
+<div class="site-brand"><img alt="Logo Habla Rusia" src="../img/logoacademia.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"/><span id="header-academia">Академия</span> HABLA RUSIA</div>
+<div>
+<a class="contact-top-btn" href="#contacto" id="contactHeaderBtn"><img alt="Электронная почта" src="../img/correo.png" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 6px;"/>Связаться</a>
+<a class="lang-toggle" href="../ruso-para-hispanohablantes/index.html" id="lang-link"><img src="../img/banderaespañola.png" alt="Español" style="width:22px;height:auto;vertical-align:middle;margin-right:7px;">Español</a>
+</div>
+</header>
+<section class="hero" data-aos="fade-in">
+<img alt="Флаг Испании" class="flag" id="flag" src="../img/banderaespañola.png" style="width: 124px; height: auto;"/><img alt="Logo Habla Rusia" src="../img/logoacademia.png" style="width: 160px; display: block; margin: 1rem auto 0; position: relative; z-index: 3; filter: drop-shadow(0 0 4px white);"/>
+<div class="hero-text">
+<h1 id="hero-title">Учите испанский онлайн с опытными преподавателями</h1>
+<p id="hero-desc">Онлайн-занятия испанским для русскоязычных. Улучшайте разговорную речь, изучайте язык и знакомьтесь с испаноязычной культурой из любой точки мира.</p>
+<!-- NUEVO BOTÓN CTA -->
+<a href="#contacto" class="cta-button hero-cta" id="hero-btn">Хочу учить испанский</a>
+</div>
+</section>
+<section class="highlight-boxes" id="highlightSection">
+<div class="highlight" data-aos="zoom-in">
+<img alt="Индивидуальные онлайн-занятия испанским" src="../img/dinero.png"/>
+<h3 id="highlight1-title">Индивидуальные занятия</h3>
+<p id="highlight1-text">Адаптируем занятия под ваш уровень, цели и темп обучения.</p>
+</div>
+<div class="highlight" data-aos="zoom-in" data-aos-delay="100">
+<img alt="Опытные преподаватели испанского" src="../img/profesora.png"/>
+<h3 id="highlight2-title">Опытные преподаватели</h3>
+<p id="highlight2-text">Развивайте естественную коммуникацию с опытными преподавателями.</p>
+</div>
+<div class="highlight" data-aos="zoom-in" data-aos-delay="200">
+<img alt="Гибкое расписание занятий испанским" src="../img/calendario.png"/>
+<h3 id="highlight3-title">Гибкое расписание</h3>
+<p id="highlight3-text">Занимайтесь онлайн в удобное для вас время.</p>
+</div>
+</section>
+<section class="info-boxes">
+<div class="info-box" data-aos="zoom-in">
+<img alt="Онлайн-занятия испанским" src="../img/online.png"/>
+<h3 id="info1-title">Онлайн-занятия</h3>
+<p id="info1-text">Подключайтесь из любой точки мира и учитесь без ограничений.</p>
+</div>
+<div class="info-box" data-aos="zoom-in" data-aos-delay="100">
+<img alt="Испаноязычная культура" src="../img/cultura.png"/>
+<h3 id="info2-title">Испаноязычная культура</h3>
+<p id="info2-text">Изучение языка помогает лучше понять культуру и людей, которые на нём говорят.</p>
+</div>
+<div class="info-box" data-aos="zoom-in" data-aos-delay="200">
+<img alt="Индивидуальный подход к изучению испанского" src="../img/manos.png"/>
+<h3 id="info3-title">Индивидуальный подход</h3>
+<p id="info3-text">Мы адаптируем занятия под ваши потребности и цели.</p>
+</div>
+</section>
+<section class="about-us" data-aos="fade-up">
+<h2 id="about-title">Практичный способ учить испанский</h2><div id="about-text-container"><div class="about-box">
+<p><strong>HABLA RUSIA</strong> — Мы создаём занятия для русскоязычных учеников, которые хотят выучить испанский с нуля или улучшить уже имеющийся уровень. Работаем над разговорной речью, пониманием, грамматикой и словарным запасом в соответствии с вашими целями.</p><p>Путешествия, работа, общение, переезд или интерес к испаноязычной культуре — независимо от вашей цели мы адаптируем занятия под ваши потребности и темп обучения.</p>
+</div></div></section>
+<section class="about-us" data-aos="fade-up" id="clases"><h2>Онлайн-занятия испанским для русскоязычных</h2><div class="about-box"><p>Мы создаём занятия для русскоязычных учеников, которые хотят выучить испанский с нуля или улучшить уже имеющийся уровень. Работаем над разговорной речью, пониманием, грамматикой и словарным запасом в соответствии с вашими целями.</p><h3>Как проходят занятия испанским</h3><div class="highlight-boxes" style="padding:1rem 0;background:transparent;"><div class="highlight"><h3>1. Расскажите о цели</h3><p>Напишите, зачем вам испанский и какой у вас уровень.</p></div><div class="highlight"><h3>2. Подберём подходящий формат</h3><p>Поможем определить подходящий уровень и формат занятий.</p></div><div class="highlight"><h3>3. Начните учиться</h3><p>Начните онлайн-занятия и развивайтесь в своём темпе.</p></div></div></div></section>
+<section class="testimonials" data-aos="fade-up">
+<h2 id="testimonials-title">Отзывы наших учеников</h2>
+<div class="testimonial">
+<p id="testimonial1">"Моей мечтой всегда была Россия — её культура, история и язык. Благодаря занятиям я заметно улучшил свой русский и уже могу общаться с носителями языка."</p>
+<strong id="testimonial1-name">- Jorge P.</strong>
+</div>
+<div class="testimonial">
+<p id="testimonial2">"Благодаря академии я улучшил свой русский и смог свободно общаться с семьёй моей жены. Знание языка открыло передо мной много новых возможностей."</p>
+<strong id="testimonial2-name">- Carlos G.</strong>
+</div>
+<div class="testimonial">
+<p id="testimonial3">"Мне нужно было выучить русский за несколько месяцев по работе. За короткое время я достиг базового уровня, который позволил мне уверенно общаться в повседневной жизни."</p>
+<strong id="testimonial3-name">- Ana L.</strong>
+</div>
+</section>
+
+<!-- NUEVA SECCIÓN DE CONTACTO -->
+<section class="about-us" data-aos="fade-up" id="preguntas"><h2>Частые вопросы об изучении испанского</h2><div class="about-box" style="text-align:left;"><h3>Можно ли учить испанский онлайн?</h3><p>Да. Вы можете заниматься испанским онлайн из любой точки мира.</p><h3>Можно ли начать с нуля?</h3><p>Да. Занятия подходят для разных уровней, включая начинающих.</p><h3>Занятия индивидуальные?</h3><p>Мы используем индивидуальный подход и адаптируем занятия под ваши цели и потребности.</p></div></section>
+<section class="contact-section" data-aos="fade-up" id="contacto">
+  <h2 id="contact-title">Хотите начать учить испанский?</h2>
+  <div class="contact-box">
+    <p id="contact-subtitle">Оставьте свои данные, и мы расскажем о занятиях, уровнях и расписании.</p>
+    
+    <!-- Formulario conectado con Formspree -->
+    <form action="https://formspree.io/f/mljrqpen" method="POST">
+      <input type="hidden" name="_subject" value="Новая заявка с HABLA RUSIA">
+      <input type="text" id="form-name" name="nombre" placeholder="Ваше имя" autocomplete="name" required>
+      <input type="email" id="form-email" name="email" placeholder="Ваш e-mail" autocomplete="email" required>
+
+      <input type="hidden" id="form-language" name="idioma" value="Испанский">
+
+      <select id="form-level" name="nivel"><option value="" selected disabled>Какой у вас уровень?</option><option>Начальный</option><option>Базовый</option><option>Средний</option><option>Продвинутый</option></select>
+
+      <textarea id="form-message" name="mensaje" rows="4" placeholder="Расскажите, что вам нужно (необязательно)"></textarea>
+      <button type="submit" class="cta-button" id="form-submit">Хочу учить испанский</button>
+    </form>
+  </div>
+</section>
+
+<footer role="contentinfo"><img alt="Электронная почта" src="../img/correo.png" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 6px;"/> hablarusia@gmail.com | © 2026 <img alt="Logo Habla Rusia" src="../img/logoacademia.png" style="height: 28px; vertical-align: middle; margin-left: 12px;"/> <span id="footer-academia">Академия</span> HABLA RUSIA</footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ duration: 1000 });</script>
+</body>
+</html>
